@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: white;
+}
+.conteiner{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+}
+.nav-bar{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.nav-bar a{
+    padding: 10px;
+    color: #000;
+}
+.nav-bar a:hover{
+    background-color: aqua;
+    border-radius: 5px;
+}
+.logo img{
+    width: 100px;
+    height: 80px;
+}
+.logo{
+    margin-left: 200px;
+}
+.menu-bar{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.menu-bar a{
+    padding: 10px;
+}
+.menu-bar a:hover{
+    background-color: aqua;
+    border-radius: 5px;
+}
+.search-box{
+    margin-right: 50px;
+    margin-top: 30px;
+    display: flex;
+}
+.search-btn{
+    color: darkgoldenrod;
+}
+.search-text{
+    margin-right: 10px;
+    display: none;
+    width: 0px;
+}
+.search-box:hover > .search-text{
+    width: 200px;
+    height: 30px;
+    display: block;
+    z-index: 10;
+}
+.cover img{
+    width: 183vh;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.cover2 img{
+    width: 183vh;
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.cover3 img{
+    float: right;
+    width: 112vh;
+    height: 500px;
+    margin-right: 23px;
+    margin-top: -4px;
+    cursor: pointer;
+}
+.drescription{
+    margin-top: 130px;
+    margin-left: 30px;
+}
+.drescription h1{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+.drescription h2{
+    color: #000;
+}
+.drescription h3{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+.cover4 img{
+    width: 183.40vh;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.cover5 img{
+    width: 112vh;
+    height: 500px;
+    margin-left: 21px;
+    margin-top: -4px;
+    cursor: pointer;
+}
+.mbl-heading{
+    margin-top: -350px;
+    margin-left: 900px;
+}
+.mbl-heading h3{
+    text-align: justify;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.mbl-heading h1{
+    font-size: 40px;
+}
+.cover6 img{
+    width: 183.40vh;
+    margin-left: 20px;
+    margin-top: 168px;
+    cursor: pointer;
+}
+.cover7 img{
+    float: right;
+    width: 112vh;
+    height: 500px;
+    margin-right: 23px;
+    margin-top: -4px;
+    cursor: pointer;
+}
+.drescription h1{
+    font-size: 50px;
+}
+.cover8 img{
+    width: 183.40vh;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.cover9{
+    width: 98.50%;
+    height: 500px;
+    background-color: rgb(231, 228, 228);
+}
+.cover9 img{
+    width: 112vh;
+    height: 500px;
+    margin-left: 21px;
+    margin-top: -4px;
+    cursor: pointer;
+}
+.microoven-drs{
+    margin-top: -350px;
+    margin-left: 900px;
+}
+.microoven-drs h3{
+    text-align: justify;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.microoven-drs h1{
+    font-size: 40px;
+}
+.cover10{
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+.lost-menu{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.lost-menu ul li{
+    height: 30px;
+}
+.lost-menu h3{
+    color: rgb(2, 131, 236);
+    margin-bottom: 10px;
+}
+.lost-menu ul li a{
+    color: #59595c;
+}
+.lost-menu ul li a:hover{
+    color: rgb(2, 131, 236);
+}
+.lost-icon{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.lost-icon h3{
+    color: rgb(2, 131, 236);
+    margin-left: 83px;
+}
+.lost-icon h4{
+    color: #59595c;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.lost-icon h5{
+    color: #000;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.lost-icon h6{
+    color: #59595c;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.lost-icon i{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.lost-logo img{
+    width: 100px;
+    height: 100px;
+    margin-left: 650px;
+    margin-top: 200px;
+}
+.copy-right p{
+    text-align: center;
+    margin-bottom: 40px;
+    border-top: 2px solid black;
+}
+@media screen and (max-width:400px){
+    .conteiner{
+        width: 387%;
+        height: 180px;
+        display: flex;
+        position: sticky;
+        z-index: 10;
+        top: 0;
+    }
+    .nav-bar{
+        margin-top: 10px;
+        margin-left: 20px;
+        position: relative;
+        font-size: 40px;
+        display: flex;
+        }
+        .nav-bar a:hover{
+            background-color: aqua;
+            height: 70px;
+            border-radius: 10px;
+        }
+        .blog{
+            margin-left: 30px;
+        }
+        .jobs{
+            position: absolute;
+            top: 70px;
+            left: 250px;
+        
+        }
+        .about{
+           position: absolute;
+            top: 70px;
+    }  
+    .logo img{
+        width: 220px;
+        height: 180px;
+    }
+    .menu-bar{
+        position: relative;
+        right: 100px;
+        bottom: 30px;
+        display: flex;
+    }
+    .menu-bar a{
+        font-size: 40px;
+        color: #000;
+        padding: 20px;
+    }
+    .contract{
+        position: absolute;
+        top: 80px;
+    }
+    .menu-bar a:hover{
+        background-color: aqua;
+        height: 70px;
+        border-radius: 10px;
+    }
+    .search-box{
+        margin-left: -180px;
+        margin-top: 120px;
+        display: flex;
+        width: 50px;
+        height: 50px;
+    }
+    .search-text{
+        margin-left: -100px;
+        display: block ;
+        width: 0px;
+        height: 00px;
+    }
+    #icon{
+        color: black;
+        font-size: 60px;
+        margin-top: -30px;
+        margin-left: 30px;
+    }
+    .cover img{
+        width: 235vh;
+        height: 170vh;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .cover2 img{
+        width: 235vh;
+        height: 150vh;
+        margin-left: 20px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .cover3 img{
+        margin-top: 60px;
+        width: 220vh;
+        height: 150vh;
+    }
+
+    .cover3 {
+        width: 235vh;
+        
+    }
+    .drescription{
+        align-items: center;
+        width: 220vh;
+        height: 00vh;
+        margin-top: 180vh;
+    }
+    .drescription h1{
+        text-align: center;
+
+    }
+    .drescription h2{
+       text-align: center;
+       margin-left: 50px;
+       
+       font-size: 60px;
+    }
+    .drescription h3{
+        text-align: center;
+        font-size: 30px;
+    }
+    .cover4 img{
+        margin-top: 300px;
+        width: 230vh;
+        height: 150vh;
+        margin-left: 30px;
+    }
+ .cover5 img{
+    margin-left: 100px;
+    width: 210vh;
+    height: 150vh;
+    margin-top: 5px;
+ }
+ .mbl-heading{
+    width: 200vh;
+    height: 30vh;
+    margin-top: 60px;
+    margin-left: 100px;
+   text-align: center;
+   align-items: center;
+ }
+ .mbl-heading h1{
+    font-size: 80px;
+ }
+ .mbl-heading h2{
+    font-size: 50px;
+ }
+ .mbl-heading h3{
+    font-size: 30px;
+ }
+ .cover6 img {
+    width: 225vh;
+    height: 150vh;
+ }
+ .cover7 img{
+    width: 220vh;
+    height: 150vh;
+ }
+ .cover7{
+    width: 230vh;
+ }
+
+ .drescription h1{
+    font-size: 80px;
+ }
+ .drescription h3{
+    font-size: 30px;
+ }
+ .cover8 img{
+    margin-top: 70vh;
+    width: 230vh;
+    height: 150vh;
+ }
+ .microoven-drs{
+    margin-top: 100vh;
+    width: 200vh;
+    height: 60vh;
+    margin-left: 200px;
+    text-align: center;
+    font-size: 30px;
+ }
+ .microoven-drs h1{
+    font-size: 80px;
+ }
+ .microoven-drs h2{
+    margin-top: 30px;
+    font-size: 50px;
+ }
+ .cover9 img{
+    width: 220vh;
+    height: 150vh;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.lost-logo {
+    margin-left: 70px;
+    
+}
+.cover10{
+    display: grid;
+    text-align: center;
+    width: 200vh;
+    height: 150vh;
+    margin-left: 200px;
+}
+.lost-menu ul li{
+    height: 50px;
+    font-size: 50px;
+    display: inline;
+}
+.lost-menu ul li {
+    padding: 50px;
+    
+}
+.lost-menu h3{
+    margin-right: 150vh;
+    font-size: 60px;
+    display: flex;
+    width: 100vh;
+}
+.global {
+    display: flex;
+    margin-left: -50px;
+}
+.home{
+    margin-left: -95vh;
+    margin-top: 40px;
+}
+.customar{
+    display: flex;
+    margin-left: -40px;
+}
+.kbbj{
+    margin-left: -80vh;
+}
+.local{
+    margin-left: -85vh;
+    margin-top: 40px;
+}
+.tvc{
+    margin-left: -110vh;
+    margin-top: 40px;
+}
+.lost-icon{
+    font-size: 50px;
+    margin-left: -220vh;
+}
+.lost-icon h4{
+    margin-left: 50vh;
+    margin-top: 40px;
+}
+.lost-icon h6{
+    margin-left: 40vh;
+  
+}
+.lost-icon h5{
+    margin-left: 5vh;
+  
+}
+.icon {
+    margin-left: 20vh;
+    margin-top: 10px;
+}
+
+.copy-right{ 
+    margin-top: 150vh;
+    font-size: 50px;
+    width: 238vh;
+}
+
+}
+
+
+
